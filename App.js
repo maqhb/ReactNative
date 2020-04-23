@@ -35,7 +35,7 @@ const App: () => Test = () => {
         alignItems: "center"
       }}>
       <Text>Hello, world! I'm Testing this baby</Text>
-      <Button title="Hi" color="#841584" onPress={()=>{alert("Hi Fuck Off"),console.log("Hey")}} />
+      <Button title="Hi" color="#841584" onPress={()=>{alert("Hi"),console.log("Hey")}} />
     </View>
   )
 };
